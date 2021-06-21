@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
  def hello
-
-  render html: "hello, world"
+  root 'application#hello'
 
 end
